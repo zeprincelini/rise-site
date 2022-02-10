@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px;
+  /* font-family:; */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-item {
+  color: #07969e;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  background-color: #07969e;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  bottom: -14px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.nav-item:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  border-radius: 8px;
+  padding: 25px;
+  top: 150%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.36);
+  transition: all 0.5s ease-in-out;
+}
+
+.dropdown a {
+  font-weight: 600;
+  padding: 10px 0px;
+  text-decoration: none;
+  color: #07969e;
+}
+
+.active,
+.active.nav-item::after {
+  font-weight: 700;
+  display: block;
+}
