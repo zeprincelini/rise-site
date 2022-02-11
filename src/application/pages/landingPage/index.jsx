@@ -10,7 +10,7 @@ import Join from "../../components/join/join";
 const LandingPage = () => {
   return (
     <>
-      <div className="wrapper-1">
+      <div className="main-wrapper">
         <HeroSection />
         <div className="sponsors-container">
           <div>
@@ -46,7 +46,9 @@ const LandingPage = () => {
         </div>
       </div>
       <Reviews />
-      <Join />
+      <div className="main-wrapper">
+        <Join />
+      </div>
     </>
   );
 };

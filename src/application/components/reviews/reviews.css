@@ -24,10 +24,11 @@
 .review-body {
   margin-top: 60px;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .review {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
