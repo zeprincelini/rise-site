@@ -1,16 +1,19 @@
 import { useState, useCallback } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 import { ReactComponent as Logo } from "../../../assets/svg/logo.svg";
-import { ReactComponent as Down } from "../../../assets/svg/down-icon.svg";
+import { ReactComponent as Down } from "../../../assets/svg/arrow-down.svg";
 
 import "./nav.css";
 
 const Navigation = () => {
+  const location = useLocation();
   const [dropdown, setDropdown] = useState(false);
   const open = useCallback(() => {
     setDropdown(!dropdown);
   }, [dropdown]);
+
+  const path = ["/stock", "/estate", "income", "/wealth"];
 
   return (
     <div className="nav-container">
@@ -21,7 +24,12 @@ const Navigation = () => {
         <NavLink to="/" className="nav-item">
           Home
         </NavLink>
-        <div className="nav-item" onClick={() => open()}>
+        <div
+          className={`nav-item ${
+            path.includes(location.pathname) ? "active" : ""
+          }`}
+          onClick={() => open()}
+        >
           <span>Products</span>
           <Down />
           {dropdown && (

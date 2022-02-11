@@ -1,0 +1,43 @@
+.invest-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-title {
+  color: #2d2d2d;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.feature-body {
+  color: #4a5050;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-link p {
+  color: #07969e;
+  font-weight: 500;
+}
+
+.feature-reverse {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}

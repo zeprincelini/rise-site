@@ -1,0 +1,35 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  height: calc(100vh - 90px);
+  padding: 30px 0px;
+}
+
+.hero-header {
+  font-size: 56px;
+  font-weight: 600;
+  color: #07969e;
+  margin-top: 50px;
+}
+
+.hero-text {
+  color: #4a5050;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.app-store {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.apple,
+.android {
+  cursor: pointer;
+}
+
+.phone {
+  filter: drop-shadow(0 0 0.75rem #c9c9c9);
+}
