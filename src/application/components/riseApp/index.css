@@ -1,0 +1,50 @@
+.app-container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.phone-2 {
+  filter: drop-shadow(0 0 0.35rem #c9c9c9);
+}
+
+.app-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-title {
+  color: #2d2d2d;
+}
+
+.app-header {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.app-header span {
+  color: #8c5ff8;
+}
+
+.app-text {
+  line-height: 25px;
+  font-size: 16px;
+  color: #2d2d2d;
+}
+
+.app-button {
+  margin-top: 10px;
+}
+
+.app-button button {
+  background: #07969e;
+  border: none;
+  color: #fff;
+  padding: 16px 10px;
+  width: 130px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}

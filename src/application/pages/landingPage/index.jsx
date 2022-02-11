@@ -3,10 +3,11 @@ import arm from "../../../assets/img/arm.png";
 import "./index.css";
 import Invest from "../../components/invest/invest";
 import Asset from "../../components/asset/asset";
+import RiseApp from "../../components/riseApp";
 
 const LandingPage = () => {
   return (
-    <div className="container">
+    <>
       <HeroSection />
       <div className="sponsors-section">
         <div>
@@ -15,7 +16,8 @@ const LandingPage = () => {
       </div>
       <Invest />
       <Asset />
-    </div>
+      <RiseApp />
+    </>
   );
 };
 
