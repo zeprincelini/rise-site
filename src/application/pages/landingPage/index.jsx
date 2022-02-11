@@ -6,6 +6,7 @@ import Asset from "../../components/asset/asset";
 import RiseApp from "../../components/riseApp";
 import Reviews from "../../components/reviews/reviews";
 import Join from "../../components/join/join";
+import AppAdvert from "../../components/appAdvert/appAd";
 
 const LandingPage = () => {
   return (
@@ -48,6 +49,7 @@ const LandingPage = () => {
       <Reviews />
       <div className="main-wrapper">
         <Join />
+        <AppAdvert />
       </div>
     </>
   );
