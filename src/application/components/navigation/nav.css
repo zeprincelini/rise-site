@@ -16,6 +16,8 @@
   cursor: pointer;
 }
 
+/*mobile navigation start*/
+
 .mobile-nav-container {
   position: fixed;
   top: 0;
@@ -25,8 +27,14 @@
   background: #fff;
   width: 100%;
   padding: 0px 30px;
-  transition: all 0.4s ease-in-out;
-  display: none;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
+  transform: scale(0);
+}
+
+.open-mobile-nav {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .mobile-nav-header {
@@ -37,10 +45,16 @@
 }
 
 .mobile-nav-links {
+  transition: transform 0.2s ease-in 0.2s;
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  transform: translateY(800px);
+}
+
+.open-mobile-nav-links {
+  transform: translateY(0px);
 }
 
 .mobile-nav-item {
@@ -58,17 +72,26 @@
 }
 
 .mobile-dropdown {
-  transition: all 2.4s ease-in-out;
-  padding: 30px 30px 0px 30px;
-  display: none;
+  transition: all 0.2s ease-in-out;
+  padding: 0px 30px 0px 30px;
   flex-direction: column;
   gap: 20px;
+  display: flex;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.open-dropdown {
+  padding-top: 30px;
+  max-height: 250px;
 }
 
 .closeIcon {
   color: #2d2d2d;
   cursor: pointer;
 }
+
+/*mobile navigation end*/
 
 .nav-links {
   display: flex;

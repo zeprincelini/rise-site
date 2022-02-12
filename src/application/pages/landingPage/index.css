@@ -81,17 +81,6 @@
 
 /*mobile responsiveness*/
 
-@media (max-width: 768px) {
-  .regulated-left-top,
-  .regulated-left-bottom {
-    width: 100px;
-  }
-  .regulated-right-top,
-  .regulated-right-bottom {
-    width: 100px;
-  }
-}
-
 @media (max-width: 960px) {
   .regulated-left-top,
   .regulated-left-bottom {
@@ -100,5 +89,19 @@
   .regulated-right-top,
   .regulated-right-bottom {
     width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .regulated-header {
+    font-size: 30px;
+  }
+  .regulated-left-top,
+  .regulated-left-bottom {
+    width: 70px;
+  }
+  .regulated-right-top,
+  .regulated-right-bottom {
+    width: 70px;
   }
 }

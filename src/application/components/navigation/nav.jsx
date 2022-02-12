@@ -71,14 +71,17 @@ const Navigation = () => {
         </NavLink>
       </div>
       <div
-        className="mobile-nav-container"
-        style={{ display: mobileNav ? "block" : "none" }}
+        className={`mobile-nav-container ${mobileNav ? "open-mobile-nav" : ""}`}
       >
         <div className="mobile-nav-header">
           <Logo />
           <Close className="closeIcon" onClick={() => toggleNav()} />
         </div>
-        <div className="mobile-nav-links">
+        <div
+          className={`mobile-nav-links ${
+            mobileNav ? "open-mobile-nav-links" : ""
+          }`}
+        >
           <NavLink to="/" className="mobile-nav-item">
             Home
           </NavLink>
@@ -88,8 +91,9 @@ const Navigation = () => {
               <ArrowDown color="#2d2d2d" />
             </div>
             <div
-              className="mobile-dropdown"
-              style={{ display: mobileDropdown ? "flex" : "none" }}
+              className={`mobile-dropdown ${
+                mobileDropdown ? "open-dropdown" : ""
+              }`}
             >
               <NavLink to="/stocks" className="mobile-nav-item">
                 Stocks

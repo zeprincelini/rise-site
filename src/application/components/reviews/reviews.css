@@ -75,6 +75,10 @@
     display: none;
   }
 
+  .review-title {
+    font-size: 25px;
+  }
+
   .review-header-mobile {
     display: block;
   }

@@ -6,4 +6,5 @@
 
 .App {
   /* padding: 0px 20px; */
+  overflow-x: hidden;
 }

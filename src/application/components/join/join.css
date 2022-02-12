@@ -35,6 +35,10 @@
   cursor: pointer;
 }
 
+.join-right img {
+  max-width: 100%;
+}
+
 /*mobile responsiveness*/
 
 @media (max-width: 768px) {
@@ -45,5 +49,9 @@
   .join-button {
     display: flex;
     justify-content: center;
+  }
+
+  .join-title {
+    text-align: center;
   }
 }

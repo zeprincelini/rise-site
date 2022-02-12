@@ -66,7 +66,8 @@
     font-weight: 600;
   }
 
-  .app-text {
+  .app-text,
+  .app-header {
     text-align: center;
   }
 }

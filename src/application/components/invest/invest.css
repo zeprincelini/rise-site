@@ -114,4 +114,8 @@
   .male-feature {
     display: none;
   }
+
+  .feature-right-extra {
+    width: 200px;
+  }
 }
