@@ -6,7 +6,7 @@ const RiseApp = () => {
     <div className="app-container">
       <div className="app-left">
         <div className="phone-2">
-          <img src={phoneTwo} alt="phone image" />
+          <img src={phoneTwo} alt="phone app" />
         </div>
       </div>
       <div className="app-right">

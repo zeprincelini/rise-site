@@ -11,7 +11,7 @@ export const useIntersect = (cardRef) => {
     });
     observer.observe(cardRef.current);
     return () => observer.disconnect();
-  }, []);
+  });
 
   return visible;
 };
