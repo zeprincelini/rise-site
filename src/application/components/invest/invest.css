@@ -10,6 +10,8 @@
   justify-content: space-between;
 }
 
+.woman-one,
+.woman-two,
 .woman-three {
   max-width: 100%;
 }
@@ -132,5 +134,23 @@
 
   .feature-right-extra {
     width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .woman-one,
+  .woman-two,
+  .woman-three {
+    height: 100%;
+  }
+
+  .nudge-1 {
+    bottom: 60px;
+  }
+  .nudge-2 {
+    bottom: 62px;
+  }
+  .nudge-3 {
+    bottom: 67px;
   }
 }
