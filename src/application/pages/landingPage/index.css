@@ -78,3 +78,27 @@
   height: 270px;
   border-radius: 50%;
 }
+
+/*mobile responsiveness*/
+
+@media (max-width: 768px) {
+  .regulated-left-top,
+  .regulated-left-bottom {
+    width: 100px;
+  }
+  .regulated-right-top,
+  .regulated-right-bottom {
+    width: 100px;
+  }
+}
+
+@media (max-width: 960px) {
+  .regulated-left-top,
+  .regulated-left-bottom {
+    width: 200px;
+  }
+  .regulated-right-top,
+  .regulated-right-bottom {
+    width: 200px;
+  }
+}

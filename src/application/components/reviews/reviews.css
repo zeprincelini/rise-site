@@ -5,6 +5,12 @@
 }
 
 .review-header {
+  display: block;
+  text-align: center;
+}
+
+.review-header-mobile {
+  display: none;
   text-align: center;
 }
 
@@ -12,6 +18,7 @@
   color: #40bbc3;
   font-weight: 600;
   font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .review-subtitle {
@@ -51,4 +58,24 @@
   align-items: center;
   gap: 20px;
   margin-bottom: 10px;
+}
+
+/*mobile responsiveness*/
+
+@media (max-width: 768px) {
+  .review-body {
+    flex-direction: column;
+  }
+  .review {
+    align-items: center;
+    gap: 30px;
+  }
+
+  .review-header {
+    display: none;
+  }
+
+  .review-header-mobile {
+    display: block;
+  }
 }

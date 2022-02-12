@@ -24,7 +24,6 @@
 
 .asset-card {
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 
@@ -34,7 +33,7 @@
   flex: 1;
   border: 2px solid rgba(145, 159, 181, 0.2);
   border-radius: 5px;
-  height: 550px;
+  height: 700px;
   padding: 120px 0px 0px 0px;
   position: relative;
   text-align: center;
@@ -69,7 +68,7 @@
 .card-body {
   background: #fff;
   height: 100%;
-  padding-top: 70px;
+  padding: 70px 10px 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -84,7 +83,7 @@
 .card-text {
   margin-top: 13px;
   font-size: 16px;
-  line-height: 30px;
+  /* line-height: 10px; */
   color: #4a5050;
 }
 
@@ -114,4 +113,12 @@
 .card-link p {
   color: #07969e;
   font-weight: 500;
+}
+
+/*mobile responsiveness*/
+
+@media (max-width: 768px) {
+  .asset-card {
+    flex-direction: column;
+  }
 }

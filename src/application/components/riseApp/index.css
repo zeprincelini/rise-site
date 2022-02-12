@@ -49,3 +49,24 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+/*mobile responsiveness*/
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .app-right {
+    align-items: center;
+  }
+
+  .app-title {
+    font-weight: 600;
+  }
+
+  .app-text {
+    text-align: center;
+  }
+}

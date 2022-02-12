@@ -34,3 +34,16 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+/*mobile responsiveness*/
+
+@media (max-width: 768px) {
+  .join-container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .join-button {
+    display: flex;
+    justify-content: center;
+  }
+}

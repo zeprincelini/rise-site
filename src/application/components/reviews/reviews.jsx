@@ -12,6 +12,10 @@ const Reviews = () => {
           to achieve your personal financial goals.
         </p>
       </div>
+      <div className="review-header-mobile">
+        <p className="review-title">What our customers are saying</p>
+        <p className="review-subtitle">We serve over 80,000 amazing users.</p>
+      </div>
       <div className="review-body">
         <div className="review">
           <p className="review-text">
