@@ -49,6 +49,7 @@
   color: #4a5050;
   line-height: 24px;
   margin-bottom: 10px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .feature-link {
@@ -56,6 +57,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  font-family: "TomatoGrotesk";
 }
 
 .feature-link p {

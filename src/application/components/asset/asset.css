@@ -16,10 +16,12 @@
   font-size: 40px;
   font-weight: 600;
   color: #2d2d2d;
+  font-family: "TomatoGrotesk";
 }
 
 .asset-subtitle {
   color: #2d2d2d;
+  font-family: "DM Sans", sans-serif;
 }
 
 .asset-card {
@@ -33,7 +35,7 @@
   flex: 1;
   border: 2px solid rgba(145, 159, 181, 0.2);
   border-radius: 5px;
-  height: 700px;
+  height: auto;
   padding: 120px 0px 0px 0px;
   position: relative;
   text-align: center;
@@ -72,18 +74,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .card-title {
   color: #4a5050;
   font-weight: 600;
   font-size: 24px;
+  font-family: "TomatoGrotesk";
 }
 
 .card-text {
   margin-top: 13px;
   font-size: 16px;
-  /* line-height: 10px; */
+  font-family: "DM Sans", sans-serif;
   color: #4a5050;
 }
 
@@ -92,6 +96,7 @@
   font-size: 16px;
   line-height: 30px;
   color: #4a5050;
+  font-family: "DM Sans", sans-serif;
 }
 
 .card-text-bottom span {
@@ -108,6 +113,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  font-family: "TomatoGrotesk";
 }
 
 .card-link p {

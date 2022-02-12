@@ -19,6 +19,7 @@
   font-weight: 600;
   font-size: 40px;
   margin-bottom: 10px;
+  font-family: "TomatoGrotesk";
 }
 
 .review-subtitle {
@@ -26,6 +27,7 @@
   color: #4a5050;
   font-size: 18px;
   line-height: 24px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .review-body {
@@ -51,6 +53,7 @@
   line-height: 24px;
   color: #4a5050;
   font-size: 16px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .reviewer {

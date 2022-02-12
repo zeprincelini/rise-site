@@ -29,6 +29,7 @@
   font-weight: 600;
   font-size: 40px;
   color: #2d2d2d;
+  font-family: "TomatoGrotesk";
 }
 
 .regulated-mid {
@@ -39,6 +40,7 @@
   margin-top: 15px;
   line-height: 26px;
   color: #4a5050;
+  font-family: "DM Sans", sans-serif;
 }
 
 .regulated-left-top {

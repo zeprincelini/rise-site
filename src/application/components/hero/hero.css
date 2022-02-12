@@ -10,11 +10,13 @@
   font-weight: 600;
   color: #07969e;
   margin-top: 50px;
+  font-family: "TomatoGrotesk";
 }
 
 .hero-text {
   color: #4a5050;
   font-size: 16px;
+  font-family: "DM Sans", sans-serif;
   margin-top: 20px;
 }
 
@@ -32,6 +34,10 @@
 
 .phone {
   filter: drop-shadow(0 0 0.75rem #c9c9c9);
+  -webkit-animation: bop 1s infinite alternate;
+  -moz-animation: bop 1s infinite alternate;
+  -o-animation: bop 1s infinite alternate;
+  animation: bop 1s infinite alternate;
 }
 
 /*mobile responsiveness*/
@@ -55,5 +61,16 @@
 
   .app-store {
     justify-content: center;
+  }
+}
+
+/*animation*/
+
+@keyframes bop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
   }
 }

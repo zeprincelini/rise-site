@@ -25,6 +25,7 @@
 .footer-list a {
   text-decoration: none;
   color: #2d2d2d;
+  font-family: "DM Sans", sans-serif;
 }
 
 .footer-list a div {
@@ -35,6 +36,7 @@
 
 .footer-list p {
   font-weight: 600;
+  font-family: "TomatoGrotesk";
 }
 
 /*mobile responsiveness*/

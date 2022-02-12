@@ -20,6 +20,7 @@
 .app-ad-title {
   color: #07969e;
   font-weight: 500;
+  font-family: "DM Sans", sans-serif;
 }
 
 .app-ad-heading {
@@ -27,11 +28,13 @@
   color: #2d2d2d;
   font-size: 32px;
   font-weight: 600;
+  font-family: "TomatoGrotesk";
 }
 
 .app-ad-subtitle {
   color: #4a5050;
   font-weight: 500;
+  font-family: "DM Sans", sans-serif;
 }
 
 .app-ad-store {

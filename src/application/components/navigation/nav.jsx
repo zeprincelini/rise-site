@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
 import { ReactComponent as Logo } from "../../../assets/svg/logo.svg";
@@ -24,6 +24,14 @@ const Navigation = () => {
   const [mobileNav, setMobileNav] = useState(false);
   const toggleNav = useCallback(() => {
     setMobileNav(!mobileNav);
+  }, [mobileNav]);
+
+  useEffect(() => {
+    mobileNav
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "unset");
+
+    return () => (document.body.style.overflow = "unset");
   }, [mobileNav]);
 
   const path = ["/stock", "/estate", "income", "/wealth"];

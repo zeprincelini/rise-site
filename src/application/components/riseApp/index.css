@@ -17,11 +17,13 @@
 
 .app-title {
   color: #2d2d2d;
+  font-family: "TomatoGrotesk";
 }
 
 .app-header {
   font-size: 40px;
   font-weight: 600;
+  font-family: "TomatoGrotesk";
 }
 
 .app-header span {
@@ -32,6 +34,7 @@
   line-height: 25px;
   font-size: 16px;
   color: #2d2d2d;
+  font-family: "TomatoGrotesk";
 }
 
 .app-button {
@@ -48,6 +51,7 @@
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
+  font-family: "TomatoGrotesk";
 }
 
 /*mobile responsiveness*/
