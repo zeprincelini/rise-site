@@ -19,13 +19,13 @@ const Footer = () => {
           </div>
           <div className="footer-list">
             <p>Explore</p>
-            <Link to="#">
+            <Link to="#" className="footer-link-icon">
               <div>
                 <span>Investmet Club</span>
                 <ArrowDiagonal />
               </div>
             </Link>
-            <Link to="#">
+            <Link to="#" className="footer-link-icon">
               <div>
                 <span>Blog</span>
                 <ArrowDiagonal />
@@ -42,34 +42,34 @@ const Footer = () => {
           </div>
           <div className="footer-list">
             <p>Contact Us</p>
-            <Link to="#">
+            <Link to="#" className="footer-link-icon">
               <div>
                 <span>0818 714 7405</span>
                 <ArrowDiagonal />
               </div>
             </Link>
-            <Link to="#">
+            <Link to="#" className="footer-link-icon">
               <div>
                 <span>hello@rise.capital</span>
                 <ArrowDiagonal />
               </div>
             </Link>
-            <Link to="#">
+            <Link to="#" className="footer-link-icon">
               <div>
                 <span>Newsletter</span>
                 <ArrowDiagonal />
               </div>
             </Link>
-            <Link to="#">
+            <Link to="#" className="footer-link-icon">
               <div>
                 <span>Instagram</span>
                 <ArrowDiagonal />
               </div>
             </Link>
-            <Link to="#">
+            <Link to="#" className="footer-link-icon">
               <div>
                 <span>Twitter</span>
-                <ArrowDiagonal />
+                <ArrowDiagonal className="arrow-diagonal" />
               </div>
             </Link>
           </div>

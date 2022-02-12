@@ -121,6 +121,15 @@
   font-weight: 500;
 }
 
+.asset-arrow-right {
+  transform: scale(0);
+  transition: transform 0.1s ease-in-out;
+}
+
+.card-link:hover .asset-arrow-right {
+  transform: scale(1);
+}
+
 .animate {
   -webkit-animation: rotator 0.7s linear;
   -o-animation: rotator 0.7s linear;

@@ -39,6 +39,15 @@
   font-family: "TomatoGrotesk";
 }
 
+.arrow-diagonal {
+  transform: translate(0, 0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-link-icon:hover .arrow-diagonal {
+  transform: translate(5px, 15px);
+}
+
 /*mobile responsiveness*/
 
 @media (max-width: 768px) {

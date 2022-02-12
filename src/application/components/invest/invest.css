@@ -65,6 +65,15 @@
   font-weight: 500;
 }
 
+.arrow-right {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(0);
+}
+
+.feature-link:hover .arrow-right {
+  transform: scale(1);
+}
+
 .feature-reverse {
   display: flex;
   align-items: center;

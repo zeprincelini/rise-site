@@ -1,6 +1,6 @@
-import { useState, useRef, useEffect } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
-import { useIntersect } from "../../hooks/useIntersect";
+import { useIntersect } from "../../shared/hooks/useIntersect";
 
 import { ReactComponent as ArrowRight } from "../../../assets/svg/arrow-right.svg";
 import cardOne from "../../../assets/img/card-icon-1.png";
@@ -42,7 +42,11 @@ const Asset = () => {
             <div className="card-footer">
               <Link to="#" className="card-link">
                 <p>Learn how Stocks work</p>
-                <ArrowRight width={15} height={15} />
+                <ArrowRight
+                  width={15}
+                  height={15}
+                  className="asset-arrow-right"
+                />
               </Link>
             </div>
           </div>
@@ -68,7 +72,11 @@ const Asset = () => {
             <div className="card-footer">
               <Link to="#" className="card-link">
                 <p>Learn how Real Estate work</p>
-                <ArrowRight width={15} height={15} />
+                <ArrowRight
+                  width={15}
+                  height={15}
+                  className="asset-arrow-right"
+                />
               </Link>
             </div>
           </div>
@@ -96,7 +104,11 @@ const Asset = () => {
             <div className="card-footer">
               <Link to="#" className="card-link">
                 <p>Learn how Fixed Income work</p>
-                <ArrowRight width={15} height={15} />
+                <ArrowRight
+                  width={15}
+                  height={15}
+                  className="asset-arrow-right"
+                />
               </Link>
             </div>
           </div>

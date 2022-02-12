@@ -25,7 +25,7 @@ const Invest = () => {
           </p>
           <Link to="#" className="feature-link">
             <p>Start Investing Now</p>
-            <ArrowRight width={15} height={15} />
+            <ArrowRight width={15} height={15} className="arrow-right" />
           </Link>
         </div>
         <div className="feature-right">
@@ -50,7 +50,7 @@ const Invest = () => {
           </p>
           <Link to="#" className="feature-link">
             <p>Start Investing Now</p>
-            <ArrowRight width={15} height={15} />
+            <ArrowRight width={15} height={15} className="arrow-right" />
           </Link>
         </div>
         <div className="feature-right">
@@ -75,7 +75,7 @@ const Invest = () => {
           </p>
           <Link to="#" className="feature-link">
             <p>Start Investing Now</p>
-            <ArrowRight width={15} height={15} />
+            <ArrowRight width={15} height={15} className="arrow-right" />
           </Link>
         </div>
         <div className="feature-right">
@@ -94,7 +94,7 @@ const Invest = () => {
           </p>
           <Link to="#" className="feature-link">
             <p>Start Investing Now</p>
-            <ArrowRight width={15} height={15} />
+            <ArrowRight width={15} height={15} className="arrow-right" />
           </Link>
         </div>
         <div className="feature-right">
