@@ -1,6 +1,6 @@
 import { ReactComponent as Apple } from "../../../assets/svg/apple-store.svg";
 import { ReactComponent as Android } from "../../../assets/svg/android-store.svg";
-import { ReactComponent as Phone } from "../../../assets/svg/phone.svg";
+import phone from "../../../assets/img/phone.png";
 import "./hero.css";
 import Bubble from "../hero-bubble/bubble";
 
@@ -23,7 +23,8 @@ const HeroSection = () => {
       </div>
       <div className="hero-right">
         <div className="phone">
-          <Phone />
+          {/* <Phone /> */}
+          <img src={phone} alt="" />
         </div>
       </div>
     </div>

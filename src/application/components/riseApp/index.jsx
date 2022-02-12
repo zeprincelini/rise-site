@@ -1,4 +1,4 @@
-import { ReactComponent as App } from "../../../assets/svg/phone-2.svg";
+import phoneTwo from "../../../assets/img/phone-2.png";
 import "./index.css";
 
 const RiseApp = () => {
@@ -6,7 +6,7 @@ const RiseApp = () => {
     <div className="app-container">
       <div className="app-left">
         <div className="phone-2">
-          <App />
+          <img src={phoneTwo} alt="phone image" />
         </div>
       </div>
       <div className="app-right">

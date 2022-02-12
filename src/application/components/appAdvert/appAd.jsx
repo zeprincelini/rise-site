@@ -3,7 +3,7 @@ import { useIntersect } from "../../shared/hooks/useIntersect";
 
 import { ReactComponent as Apple } from "../../../assets/svg/apple-store.svg";
 import { ReactComponent as Android } from "../../../assets/svg/android-store.svg";
-import { ReactComponent as Phone } from "../../../assets/svg/phone.svg";
+import phoneTwo from "../../../assets/img/phone.png";
 import "./appAd.css";
 
 const AppAdvert = () => {
@@ -25,7 +25,9 @@ const AppAdvert = () => {
         </div>
       </div>
       <div className="app-ad-right">
-        <Phone
+        <img
+          src={phoneTwo}
+          alt="rise app"
           className={`app-ad-phone ${show ? "app-ad-phone-animate" : ""}`}
         />
       </div>
