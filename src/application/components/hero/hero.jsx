@@ -2,10 +2,12 @@ import { ReactComponent as Apple } from "../../../assets/svg/apple-store.svg";
 import { ReactComponent as Android } from "../../../assets/svg/android-store.svg";
 import { ReactComponent as Phone } from "../../../assets/svg/phone.svg";
 import "./hero.css";
+import Bubble from "../hero-bubble/bubble";
 
 const HeroSection = () => {
   return (
     <div className="hero-container">
+      <Bubble />
       <div className="hero-left">
         <p className="hero-header">
           Dollar investments <br /> that help you grow

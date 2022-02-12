@@ -121,4 +121,7 @@
   .asset-card {
     flex-direction: column;
   }
+  .card-body {
+    gap: 30px;
+  }
 }

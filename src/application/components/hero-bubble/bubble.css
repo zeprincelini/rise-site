@@ -1,0 +1,59 @@
+.hero-bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: transparent;
+  z-index: -1;
+}
+
+.bubble-1 {
+  width: 32px;
+  height: 32px;
+  background: #a0dde2;
+  border-radius: 50%;
+  position: absolute;
+  left: 130px;
+  top: 144px;
+}
+
+.bubble-2 {
+  width: 56px;
+  height: 56px;
+  background: #a0dde2;
+  border-radius: 50%;
+  position: absolute;
+  left: 700px;
+  top: 114px;
+}
+
+.bubble-3 {
+  width: 56px;
+  height: 56px;
+  background: #a0dde2;
+  border-radius: 50%;
+  position: absolute;
+  left: 20%;
+  top: 573px;
+}
+
+.bubble-4 {
+  width: 32px;
+  height: 32px;
+  background: #a0dde2;
+  border-radius: 50%;
+  position: absolute;
+  left: 816px;
+  top: 556px;
+}
+
+.bubble-5 {
+  width: 56px;
+  height: 56px;
+  background: #a0dde2;
+  border-radius: 50%;
+  position: absolute;
+  left: 1216px;
+  top: 580px;
+}
