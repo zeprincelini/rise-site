@@ -1,14 +1,19 @@
+import { useRef } from "react";
+import { useIntersect } from "../../hooks/useIntersect";
+
 import { ReactComponent as Apple } from "../../../assets/svg/apple-store.svg";
 import { ReactComponent as Android } from "../../../assets/svg/android-store.svg";
 import { ReactComponent as Phone } from "../../../assets/svg/phone.svg";
 import "./appAd.css";
 
 const AppAdvert = () => {
+  const adRef = useRef();
+  const show = useIntersect(adRef);
   return (
-    <div className="app-ad-container">
+    <div className="app-ad-container" ref={adRef}>
       <div className="app-ad-left">
         <p className="app-ad-title">Download The Rise App</p>
-        <p className="app-ad-heading">
+        <p className={`app-ad-heading ${show ? "app-ad-heading-animate" : ""}`}>
           Join our 100,000 users investing <br /> and setting long term goals!
         </p>
         <p className="app-ad-subtitle">
@@ -20,7 +25,9 @@ const AppAdvert = () => {
         </div>
       </div>
       <div className="app-ad-right">
-        <Phone className="app-ad-phone" />
+        <Phone
+          className={`app-ad-phone ${show ? "app-ad-phone-animate" : ""}`}
+        />
       </div>
     </div>
   );

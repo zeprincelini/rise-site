@@ -70,3 +70,39 @@
     top: 48px;
   }
 }
+
+.app-ad-heading-animate {
+  -webkit-animation: reveal 1.5s linear;
+  -moz-animation: reveal 1.5s linear;
+  -o-animation: reveal 1.5s linear;
+  animation: reveal 1.5s linear;
+}
+
+.app-ad-phone-animate {
+  -webkit-animation: reveal-2 1s linear;
+  -moz-animation: reveal-2 1s linear;
+  -o-animation: reveal-2 1s linear;
+  animation: reveal-2 1s linear;
+}
+
+/*animation*/
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal-2 {
+  0% {
+    top: 300px;
+  }
+
+  100% {
+    top: 80px;
+  }
+}

@@ -1,4 +1,6 @@
+import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useIntersect } from "../../hooks/useIntersect";
 
 import { ReactComponent as ArrowRight } from "../../../assets/svg/arrow-right.svg";
 import cardOne from "../../../assets/img/card-icon-1.png";
@@ -7,6 +9,9 @@ import cardThree from "../../../assets/img/card-icon-3.png";
 import "./asset.css";
 
 const Asset = () => {
+  const cardRef = useRef();
+  const visible = useIntersect(cardRef);
+
   return (
     <div className="asset-container">
       <div className="asset-header">
@@ -15,9 +20,9 @@ const Asset = () => {
           It&apos;s your money, choose where you invest it
         </p>
       </div>
-      <div className="asset-card">
+      <div className="asset-card" ref={cardRef}>
         <div className="card-1">
-          <div className="card-icon">
+          <div className={`card-icon ${visible ? "animate" : ""}`}>
             <img src={cardOne} alt="icon" className="card-svg" />
           </div>
           <div className="card-body">
@@ -43,7 +48,7 @@ const Asset = () => {
           </div>
         </div>
         <div className="card-2">
-          <div className="card-icon">
+          <div className={`card-icon ${visible ? "animate" : ""}`}>
             <img src={cardTwo} alt="icon" className="card-svg" />
           </div>
           <div className="card-body">
@@ -69,7 +74,7 @@ const Asset = () => {
           </div>
         </div>
         <div className="card-3">
-          <div className="card-icon">
+          <div className={`card-icon ${visible ? "animate" : ""}`}>
             <img src={cardThree} alt="icon" className="card-svg" />
           </div>
           <div className="card-body">

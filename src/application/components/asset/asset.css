@@ -121,6 +121,13 @@
   font-weight: 500;
 }
 
+.animate {
+  -webkit-animation: rotator 0.7s linear;
+  -o-animation: rotator 0.7s linear;
+  -moz-animation: rotator 0.7s linear;
+  animation: rotator 0.7s linear;
+}
+
 /*mobile responsiveness*/
 
 @media (max-width: 768px) {
@@ -129,5 +136,16 @@
   }
   .card-body {
     gap: 30px;
+  }
+}
+
+/*animation*/
+
+@keyframes rotator {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
