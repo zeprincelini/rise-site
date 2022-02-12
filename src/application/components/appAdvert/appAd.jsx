@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useIntersect } from "../../hooks/useIntersect";
+import { useIntersect } from "../../shared/hooks/useIntersect";
 
 import { ReactComponent as Apple } from "../../../assets/svg/apple-store.svg";
 import { ReactComponent as Android } from "../../../assets/svg/android-store.svg";
