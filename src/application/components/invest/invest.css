@@ -10,6 +10,10 @@
   justify-content: space-between;
 }
 
+.woman-three {
+  max-width: 100%;
+}
+
 .feature-right-extra {
   display: none;
   position: absolute;

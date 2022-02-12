@@ -45,7 +45,7 @@
 }
 
 .footer-link-icon:hover .arrow-diagonal {
-  transform: translate(5px, 15px);
+  transform: translate(5px, -10px);
 }
 
 /*mobile responsiveness*/

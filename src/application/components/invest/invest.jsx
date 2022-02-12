@@ -29,7 +29,7 @@ const Invest = () => {
           </Link>
         </div>
         <div className="feature-right">
-          <Woman />
+          <Woman style={{ maxWidth: "100%" }} />
           <div className="feature-right-extra nudge-1"></div>
         </div>
       </div>
@@ -54,7 +54,7 @@ const Invest = () => {
           </Link>
         </div>
         <div className="feature-right">
-          <WomanTwo />
+          <WomanTwo style={{ maxWidth: "100%" }} />
           <div className="feature-right-extra nudge-2"></div>
         </div>
       </div>
@@ -79,7 +79,7 @@ const Invest = () => {
           </Link>
         </div>
         <div className="feature-right">
-          <WomanThree />
+          <WomanThree className="woman-three" />
           <div className="feature-right-extra"></div>
         </div>
       </div>

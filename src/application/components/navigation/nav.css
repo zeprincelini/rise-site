@@ -42,7 +42,7 @@
 }
 
 .mobile-nav-links {
-  transition: transform 0.2s ease-in 0.2s;
+  transition: transform 0.6s ease-in 0.2s;
   margin-top: 70px;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,7 @@
   text-decoration: none;
   color: #07969e;
   font-size: 22px;
+  font-family: "TomatoGrotesk";
 }
 
 .modify {
